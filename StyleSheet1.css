@@ -1,0 +1,127 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    list-style: none;
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+body {
+    background: #f3f5f9;
+}
+
+.main {
+    height: 100%;
+    margin-left: 220px;
+}
+
+.content {
+    height: 100%;
+    margin-left: 60px;
+    margin-right: 20px;
+}
+
+.header {
+    width: 100%;
+    flex: 50%;
+    display: flex;
+    height: 200px;
+    background: #fff;
+    border-bottom: 3px solid #545454;
+}
+
+
+.header img {
+    width: 200px;
+    margin-left: 90px;
+}
+
+.header .title {
+    margin: auto 0;
+    text-align: center;
+    font-size: 35px;
+
+}
+
+
+
+.sidebar {
+    background: #A82400;
+    width: 220px;
+    margin-top: 0;
+    position: fixed;
+    overflow: auto;
+    height: 150%;
+
+
+
+}
+
+
+.sidebar ul a {
+    color: #fff;
+    display: block;
+    padding: 10px 0 10px 20px;
+    border-bottom: 1px solid black;
+}
+
+.sidebar ul a:hover {
+    background: #545454;
+    transition: .5s;
+    font-size: 110%;
+}
+
+.active-page {
+    background: #545454;
+    transition: .5s;
+    font-size: 110%;
+
+
+}
+
+
+.sidebar ul .subhead ul {
+    display: none;
+    background: #a84a38;
+}
+
+.sidebar ul li:hover .subhead ul {
+    display: block;
+}
+
+.sidebar .arrow:after {
+    content: '\f0da';
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-left: 15px;
+
+
+}
+
+.main .header .title {
+    color: #545454;
+}
+
+.content .title {
+    color: #A82400;
+    font-size: 25px;
+}
+
+
+footer {
+    background-color: #545454;
+    padding: 1.5%;
+    margin-bottom: 0;
+
+}
+
+footer p {
+    margin-left: 230px;
+    color: #fff;
+}
+
+footer a:link {
+    text-decoration: none;
+    color: #fff;
+}

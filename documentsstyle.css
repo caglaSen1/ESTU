@@ -1,0 +1,15 @@
+.documents a:any-link{
+   
+    border: 1px solid #545454;
+    outline: .2px ridge ;
+    padding: 3px;
+    margin: 10px;
+    display:inline-block;
+    
+}
+
+.documents li{
+    margin-bottom: 2px;
+    list-style-type: disc;
+}
+

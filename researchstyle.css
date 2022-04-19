@@ -1,0 +1,23 @@
+.publications-stats img{
+    padding-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    border-bottom: 3px solid #545454;
+    padding-bottom: 50px;
+    margin-bottom: 25px;
+}
+
+.publications-stats img:hover{
+    width: 75%;
+    
+}
+
+.content .text ul{
+    margin-bottom: 30px;
+}
+
+.content .text li{
+    list-style-type: disc;
+}
